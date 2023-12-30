@@ -1,4 +1,6 @@
 import random
+import time
+
 import sys
 import ctypes
 
@@ -30,14 +32,16 @@ def random_rgb_value():
 def get_restaurant_list():
     """Prompt the user to enter restaurant names and return a list of them."""
     restaurant_list = []
+    restaurant_list_display_color = (89, 89, 89)
     print("Ingrese los nombres de los restaurantes. Deje en blanco y presione enter para terminar.")
+
     while True:
         color = random_rgb_value()
-        restaurant_name = input(colored(color,"Nombre del restaurante: "))
-
+        restaurant_name = input(colored(restaurant_list_display_color,str(restaurant_list)) + "\n" + colored(color,"Nombre del restaurante: "))
         if restaurant_name == "":
             break
         restaurant_list.append(restaurant_name)
+        print("\033c")
     return restaurant_list
 
 def choose_random_restaurant(restaurant_list):
@@ -50,6 +54,7 @@ def main():
     restaurants = get_restaurant_list()
     chosen_restaurant = choose_random_restaurant(restaurants)
     print(f"Restaurante seleccionado: {chosen_restaurant}")
+    time.sleep(10)
 
 if __name__ == "__main__":
     main()
