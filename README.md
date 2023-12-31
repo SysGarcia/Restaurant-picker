@@ -8,6 +8,4 @@ GUI user-friendly program.
 
 No GUI.
 
-![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/756f4768-f3a5-4d46-b133-942d34f23af4)
-
-![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/a0c965bc-05e4-4eb8-9e1d-a2563e8b3c9a)
+![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/756f4768-f3a5-4d46-b133-942d34f23af4)![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/a0c965bc-05e4-4eb8-9e1d-a2563e8b3c9a)
