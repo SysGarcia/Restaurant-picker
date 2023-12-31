@@ -3,7 +3,7 @@ import random
 
 root = tk.Tk()
 root.title("Tk Restaurant Picker")
-"""root.iconbitmap("icon\\chef-hat.ico")"""
+root.iconbitmap("icon\\chef-hat.ico")
 
 window_height = 300
 window_width = 300
