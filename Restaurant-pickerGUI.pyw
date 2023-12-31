@@ -3,7 +3,7 @@ import random
 
 root = tk.Tk()
 root.title("Tk Restaurant Picker")
-root.iconbitmap("icon\\chef-hat.ico")
+"""root.iconbitmap("icon\\chef-hat.ico")"""
 
 window_height = 300
 window_width = 300
@@ -25,7 +25,7 @@ restaurantes = []
 
 def submit(event=None):  # Allow for the event parameter from the key binding
     name = restaurant_var.get()
-    if name != "":
+    if name != "" and name not in restaurantes:
         restaurantes.append(name)
         restaurant_var.set("")
     else:
