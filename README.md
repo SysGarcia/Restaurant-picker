@@ -12,7 +12,7 @@ Welcome to the Restaurant Picker application! This simple yet functional GUI too
 
 ## Getting Started
 
-To run the Restaurant Picker on your local machine, you'll need to have Python installed. Clone the repository to your local machine, navigate to the directory containing the `restaurant_picker.py` (or whatever you've named your script), and run the script with Python.
+To run the Restaurant Picker on your local machine, you'll need to have Python installed. Clone the repository to your local machine, navigate to the directory containing the `restaurant_picker.py`
 
 ![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/ee5f4ec1-c00d-42f9-9952-764912f169b1)![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/568de880-6e05-4e01-a858-b1d3930ba98c)![imagen](https://github.com/Wolfuliam/Restaurant-picker/assets/147284006/7df2c4b8-2946-47b4-a03d-a8495c3c70c7)
 
